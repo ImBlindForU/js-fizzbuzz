@@ -3,17 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    text-align: center;
+    color: white;
+}
 
-.container{
-    width: 80%;
+body{
+    background-image: url(../img/ivana-cajina-asuyh-_ZX54-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#result{
+    width: 100%;
     margin: 0 auto;
-
-    /* debug */
-    background-color: lightcoral;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .box{
     width: 100px;
     height: 100px;
-    background-color: lightgreen;
+    background-color: lightblue;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }

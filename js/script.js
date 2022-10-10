@@ -11,7 +11,7 @@
 //      metti fizz
 //      ALTRIMETNI non mettere niente 
 
-for (let i = 0; i <=100; i++){
+for (let i = 1; i <=100; i++){
     let buzzFizz = "";
     if (i % 3 == 0){
         if (i % 5 == 0){
@@ -30,7 +30,6 @@ for (let i = 0; i <=100; i++){
     div.className = "box"
     div.append(buzzFizz)
     console.log(div.outerHTML);
-    document.getElementById("result").innerHTML = buzzFizz
     document.getElementById("result").appendChild(div);
 }
 
