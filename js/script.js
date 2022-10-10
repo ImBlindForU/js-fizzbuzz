@@ -24,7 +24,10 @@ for (let i = 0; i <=100; i++){
     } else{
         buzzFizz = i;
     }
-    console.log(buzzFizz);
-}
+    
 
+    let div = document.createElement ("div");
+    div.append(buzzFizz)
+    console.log(div.outerHTML);
+}
 
