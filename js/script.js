@@ -30,6 +30,6 @@ for (let i = 0; i <=100; i++){
     div.className = "box"
     div.append(buzzFizz)
     console.log(div.outerHTML);
-    document.getElementById(result).innerHTML = box
+    document.getElementById("result").innerHTML = buzzFizz
 }
 
