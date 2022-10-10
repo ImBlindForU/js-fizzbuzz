@@ -31,5 +31,6 @@ for (let i = 0; i <=100; i++){
     div.append(buzzFizz)
     console.log(div.outerHTML);
     document.getElementById("result").innerHTML = buzzFizz
+    document.getElementById("result").appendChild("box");
 }
 
