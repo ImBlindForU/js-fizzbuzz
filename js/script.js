@@ -27,7 +27,9 @@ for (let i = 0; i <=100; i++){
     
 
     let div = document.createElement ("div");
+    div.className = "box"
     div.append(buzzFizz)
     console.log(div.outerHTML);
+    document.getElementById(result).innerHTML = box
 }
 
