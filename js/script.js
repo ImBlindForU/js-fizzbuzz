@@ -22,9 +22,9 @@ for (let i = 0; i <=100; i++){
     } else if(i % 5 == 0){
         buzzFizz = "buzz";
     } else{
-        buzzFizz = "";
+        buzzFizz = i;
     }
-    console.log(i, buzzFizz);
+    console.log(buzzFizz);
 }
 
 
